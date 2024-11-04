@@ -68,7 +68,7 @@ nav .section ul li:hover {
 
 .for-mob-section {
     position: sticky;
-    top: 9%;
+    /* top: 9%; */
     left: 35%;
     height: auto;
     width: 96%;
@@ -835,11 +835,18 @@ nav .section ul li:hover {
     }
 
     .for-mob-section.active {
+        /* background: #000; */
         max-height: 392px;
         opacity: 1;
         width: 100%;
         padding-left: 4vw;
 
+    }
+
+    .for-mob-section li:hover{
+        cursor: pointer;
+        color: #4776E6;
+        /* background-color: #777777; */
     }
 
     .bg-image {
@@ -998,8 +1005,7 @@ nav .section ul li:hover {
     /* .services-offer p {
     } */
 
-    .page5 {
-    }
+    .page5 {}
 
     .client-feedback {
         width: 100%;
@@ -1045,8 +1051,7 @@ nav .section ul li:hover {
 @media (max-width : 575px) {}
 
 @media (max-width : 576px) {
-    .page3 {
-    }
+    .page3 {}
 
     .page3-left {
         width: 67%;
@@ -1132,6 +1137,3 @@ nav .section ul li:hover {
         margin-top: 2vw;
     }
 }
-
-/* 994 se start hai 
-560 ky uper 2 cart hai  */
